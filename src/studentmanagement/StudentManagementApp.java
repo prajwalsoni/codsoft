@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StudentManagementApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        StudentManagementSystem sms = new StudentManagementSystem(); //class
+        StudentManagementSystem sms = new StudentManagementSystem(); //class creation
 
         while (true) {
             System.out.println("Student Management System");
