@@ -77,6 +77,7 @@ public class WordCountAnalyzerGUI extends Application {
         StringBuilder content = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
+            // Todo remove this
             while ((line = reader.readLine()) != null) {
                 content.append(line).append("\n");
             }
